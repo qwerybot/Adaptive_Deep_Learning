@@ -1,6 +1,6 @@
 # Adaptive Deep Learning Model Selection On Embedded Systems
 
-Ben Taylor, Vicent Sanz Marco, Yehia Elkhatib, Willy Wolff, Zheng Wang
+Ben Taylor, Vicent Sanz Marco, Willy Wolff, Yehia Elkhatib, Zheng Wang
 
 ** Abstract **
 > The recent ground-breaking advances in deep learning networks (DNNs) make them attractive for embedded systems.
