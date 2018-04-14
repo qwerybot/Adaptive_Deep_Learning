@@ -23,17 +23,17 @@ This was written for an artefact evaluation which we had pre-deployed onto our o
 to set up this system in your own environment for your own use.
 
 ### Requirements
-* Python2
-* Tensorflow 1.3
-* numpy
-* Pyro4
-* MySQLdb
-* scikit-learn
+* [Python2](https://www.python.org/downloads/)
+* [Tensorflow 1.3](https://www.tensorflow.org/versions/r1.3/)
+* [numpy](https://www.scipy.org/scipylib/download.html)
+* [Pyro4](https://pythonhosted.org/Pyro4)
+* [MySQLdb](http://mysqlclient.readthedocs.io)
+* [scikit-learn](http://scikit-learn.org/stable/install.html)
 
 #### External Data 
 Our artefact requires two lots of external data which we are unable to store in this repostory due to their size:
 
-* ILVRSC 2012 validation image set - The 50k images which were used as a validation set in the 2012 ILVRSC imagenet challenge. 
+* [ILVRSC 2012 validation image set](http://www.image-net.org/download-images) - The 50k images which were used as a validation set in the 2012 ILVRSC imagenet challenge. 
     These should be stored in the folder `images\val\images`.
 * DNN checkpoints - The checkpoints for the pretrained models provided by the tf-slim library. All these checkpoints can be found at:
     [tf-slim](https://github.com/tensorflow/models/tree/master/research/slim). These checkpoints should be stored in the model_data folder at 
