@@ -30,6 +30,9 @@ to set up this system in your own environment for your own use.
 * [MySQLdb](http://mysqlclient.readthedocs.io)
 * [scikit-learn](http://scikit-learn.org/stable/install.html)
 
+### Optional Requirements
+* [Jupyter Notebook](http://jupyter.org/install.html)
+
 #### External Data 
 Our artefact requires two lots of external data which we are unable to store in this repostory due to their size:
 
@@ -72,9 +75,23 @@ now on we will refer to your ip address as `your_ip`. We will use that in place 
     `python inference.py`
 
 
-### Jupyter notebook setup
+### Jupyter Notebook setup
+
+Inside the folder `code\server\` there is a file called `Artefact.ipynb` that is used by Jupyter Notebook to open a web application allowing to perform the experiments showed in the paper.
 
 
+1. First install Jupyter Notebook.
+
+
+2. After go to the folder `code\server\` using your Terminal (Mac/Linux) or Command Prompt (Windows).
+
+
+3. There perform the following command: 
+
+    `jupyter notebook`
+
+
+4. This will print some information about the notebook server in your terminal, including the URL of the web application (by default, http://localhost:8888).
 
 
 
