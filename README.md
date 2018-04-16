@@ -49,7 +49,7 @@ This approach kept the results accurate while making model training and computat
 Below we describe how to set up the embedded system first, then how to connect the server for remote inference.
 
 ### Jetson TX2 setup
-To perform remote inference on another system you are going to need to the its ip address through methods such as `ifconfig`. From
+To perform remote inference on another system you are going to need to obtain the ip address through methods such as `ifconfig`. From
 now on we will refer to your ip address as `your_ip`. We will use that in place of anywhere you need to include your ip address.
 
 1. Traverse to `code/TX2`.
@@ -83,10 +83,10 @@ Inside the folder `code\server\` there is a file called `Artefact.ipynb` that is
 1. First install Jupyter Notebook.
 
 
-2. After go to the folder `code\server\` using your Terminal (Mac/Linux) or Command Prompt (Windows).
+2. Go to the folder `code\server\` using your Terminal (Mac/Linux) or Command Prompt (Windows).
 
 
-3. There perform the following command: 
+3. Type the following command: 
 
     `jupyter notebook`
 
