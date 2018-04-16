@@ -36,7 +36,7 @@ to set up this system in your own environment for your own use.
 #### External Data 
 Our artefact requires two lots of external data which we are unable to store in this repostory due to their size:
 
-* [ILVRSC 2012 validation image set](http://www.image-net.org/download-images) - The 50k images which were used as a validation set in the 2012 ILVRSC imagenet challenge. 
+* [ILSVRC 2012 validation image set](http://www.image-net.org/download-images) - The 50k images which were used as a validation set in the 2012 ILSVRC imagenet challenge. 
     These should be stored in the folder `images\val\images`.
 * DNN checkpoints - The checkpoints for the pretrained models provided by the tf-slim library. All these checkpoints can be found at:
     [tf-slim](https://github.com/tensorflow/models/tree/master/research/slim). These checkpoints should be stored in the model_data folder at 
